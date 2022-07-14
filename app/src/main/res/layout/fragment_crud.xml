@@ -3,13 +3,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".WebFragment"
-    android:layout_marginBottom="65dp">
+    tools:context=".CrudFragment">
 
-    <WebView
-        android:id="@+id/wv_web"
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"
+        android:text="Crud"
+        android:textSize="60dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
 
 </FrameLayout>
